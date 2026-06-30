@@ -54,7 +54,7 @@
 }
 
 \begin{document}
-\author{Max Fachin:138099@spes.uniud.it\\ 
+\author{Max Fachin: 138099@spes.uniud.it\\ 
 Panizza Jacopo: 167907@spes.uniud.it\\ 
 Weijie Liu: 166854@spes.uniud.it\\ 
 Giovanni Urban: 167774@spes.uniud.it}
@@ -784,7 +784,7 @@ Si conclude che il mantenimento della ridondanza risulta conveniente, in quanto 
     Corso & (nome, corso di laurea) \\
     Aula & (nome, edificio) \\
     Edificio & nome \\
-    Lezione & (giorno, fascia oraria, corso) \\
+    Lezione & (corso, giorno, fascia oraria) \\
     \bottomrule
     \end{tabular}
 \end{table}
@@ -907,7 +907,7 @@ Al fine di mantenere la consistenza della base di dati, sono stati definiti i se
     \item \ref{ic:student_teacher}: un docente non può essere anche uno studente e, viceversa, uno studente non può essere anche un docente.
     \item \ref{ic:student_degree_participation}: ogni studente deve essere iscritto ad almeno un corso di laurea. La rimozione di tutte le iscrizioni di uno studente deve comportarne la sua rimozione.
     \item \ref{ic:degree_course_participation}: ogni corso di laurea deve comprendere almeno un corso.
-    \item \ref{ic:degree_building_participation}: ogni corso di laurea deve utilizzare almento un edifico.
+    \item \ref{ic:degree_building_participation}: ogni corso di laurea deve utilizzare almeno un edifico.
     \item \ref{ic:building_room_participation}: per ogni edificio deve esistere almeno un'aula ad esso associata.
 \end{itemize}
 
